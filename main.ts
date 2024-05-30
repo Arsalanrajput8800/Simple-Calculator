@@ -14,7 +14,7 @@ let answer =await inquirer.prompt([
         message: "Select one Operator to preform Operators",
         type: "list",
         name: "operator",
-        choices: ["Addition","Subrections","Multiplication","Division"],
+        choices: ["Addition","Subractions","Multiplication","Division"],
     }
 ])
 
